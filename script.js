@@ -42,7 +42,7 @@ form.addEventListener("submit", e => {
             input.value = "";
         })
         .catch(() => {
-            msg.textContent = "Por favor, pon una ciudad válida";
+            msg.textContent = "Por favor, introduce una ciudad válida";
         });
 });
 
